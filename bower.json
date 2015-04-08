@@ -1,0 +1,17 @@
+{
+  "name": "proximibee",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ARBeacons/proximibee",
+  "authors": [
+    "meads58 <meads109@gmail.com>"
+  ],
+  "description": "beacon response project",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

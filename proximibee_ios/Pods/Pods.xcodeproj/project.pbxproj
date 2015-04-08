@@ -1,0 +1,1698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B3C5CD4D18A06239531B0F /* ESTLocationBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = E1642A1C9481ACE7AC14E5CD /* ESTLocationBuilder.h */; };
+		01289CFC81FBEE9C660548E2 /* ESTNearableManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E85C574E4B042D73F5D0048 /* ESTNearableManager.h */; };
+		052B92277D1694B50D10C35F /* ESTOrientedPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C05EE7084AABD29EFFB7C7 /* ESTOrientedPoint.h */; };
+		0586010A16C31D23A8153C0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C4B44F4A39AB3C0E1AC473 /* UIKit.framework */; };
+		0620D04BB6B400C9F9CA8304 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C4B44F4A39AB3C0E1AC473 /* UIKit.framework */; };
+		0624491B9E755E94ADF491AE /* ESTOrientedLineSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E4B5ED2C4F56953F500190F /* ESTOrientedLineSegment.h */; };
+		0980EA4A57C9C5673F3C6898 /* ESTDateRule.h in Headers */ = {isa = PBXBuildFile; fileRef = F82D8281EEEEC9A3E2F8EF3C /* ESTDateRule.h */; };
+		0E39A6228FD6A8896F597F02 /* ESTPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = FA480F5B43147D757AD3EC10 /* ESTPoint.h */; };
+		11D6CCA3E3576744906CF8AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635BCC5E7963F24C05978B8 /* Foundation.framework */; };
+		12692D2CAC627D3FE14ED39F /* ESTBeaconUpdateInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6046167E5ACBF48FA3F8F168 /* ESTBeaconUpdateInfo.h */; };
+		12709BA6E71021116A1F868B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEE2A3E694A7776F1A00C9 /* CoreLocation.framework */; };
+		12832ACB19C28453685650AD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AAE726E3D5A71D36B48A3AD /* MessageUI.framework */; };
+		12C62C06AC037FA9FAC87ECB /* ESTIndoorLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 49887B0BC0C4DDA18084184C /* ESTIndoorLocationManager.h */; };
+		132DEE03067144598ED16EF3 /* ESTBeaconVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C880C3E16579D79F42E7CE7 /* ESTBeaconVO.h */; };
+		136C263181BB2C3C0828B1AC /* ESTLocationLinearObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 725D64C463E123B095340840 /* ESTLocationLinearObject.h */; };
+		17FCA4D4663670A058B5694B /* ESTBulkUpdater.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C4FC4D03F0CC2CA2DD2DD0 /* ESTBulkUpdater.h */; };
+		19CBA7F2B7C6FDBBF530FBF8 /* ESTBeaconRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = B85A180C9CDB2FD416E1B499 /* ESTBeaconRegion.h */; };
+		1A0826E98D94FB72C7A22F80 /* Pods-EstimoteIndoorSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DF5B71002FE238D6DC5435 /* Pods-EstimoteIndoorSDK-dummy.m */; };
+		1B3924FE39C07E6B0E27EEA1 /* ESTTriggerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C15F25EB5109B057E7AE19 /* ESTTriggerManager.h */; };
+		1DD9F2E86B582FC70B3264C9 /* ESTOrientedLineSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E4B5ED2C4F56953F500190F /* ESTOrientedLineSegment.h */; };
+		1F1F0A11F594FCE9DC6AC869 /* ESTProximityRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E1AC91AD7AE30ABE8FE515F /* ESTProximityRule.h */; };
+		1F7D32906A17FF019E8E2074 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE6AC39B1FF3F29FB627DAC /* CoreMotion.framework */; };
+		2086AC816EC7FB54EA212E6C /* ESTDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7E1B29A57E0CAE6E218BF0 /* ESTDefinitions.h */; };
+		23D110C9A6ED419CF6BCBF02 /* ESTBeaconRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = B85A180C9CDB2FD416E1B499 /* ESTBeaconRegion.h */; };
+		24DFE7F38E4765A7EA0EB099 /* ESTNearableRule.h in Headers */ = {isa = PBXBuildFile; fileRef = A0928BA49140861DB17C79E3 /* ESTNearableRule.h */; };
+		26AD19D26B531F054C19AB52 /* ESTLocationBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = E1642A1C9481ACE7AC14E5CD /* ESTLocationBuilder.h */; };
+		2857C8B98948BDBD9BAA2F35 /* Pods-proximibee_iosTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406DB341340E7F36ACEBEA3 /* Pods-proximibee_iosTests-dummy.m */; };
+		29CDB293BB541C62ED9472AE /* ESTBeaconDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B2681C8D0FC8F87E93A708 /* ESTBeaconDefinitions.h */; };
+		2ACF82CB2C5901410F4714F2 /* ESTLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4133CD4F75DFB47B8BAD0897 /* ESTLocation.h */; };
+		2B57A4D0B540CEF6652F1763 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEE2A3E694A7776F1A00C9 /* CoreLocation.framework */; };
+		2C871415E58B00E74497A569 /* ESTLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4133CD4F75DFB47B8BAD0897 /* ESTLocation.h */; };
+		2D7EFFF259E1EF8A03854BB2 /* ESTNearable.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D4B355393186C0E7407C9B /* ESTNearable.h */; };
+		300BBECACD4B744C6FF5AF07 /* ESTConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4383AD4B719367AEACC4BC7D /* ESTConfig.h */; };
+		32433E8AE8DFC7817CFD2D5A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE6AC39B1FF3F29FB627DAC /* CoreMotion.framework */; };
+		35BE4BE3CDD92EAAAC088814 /* ESTNearableDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = F889C21D9083449BF43D082F /* ESTNearableDefinitions.h */; };
+		36EABB3C3F3E439A5CCA87FF /* ESTOrientationRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 81421EBED8D2F496B56EE745 /* ESTOrientationRule.h */; };
+		395D66AEDA42F2555FBE741D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936B64547D16FD3D1DC936F9 /* MobileCoreServices.framework */; };
+		3A32F044BE19A48FA11C04DE /* ESTLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4133CD4F75DFB47B8BAD0897 /* ESTLocation.h */; };
+		3D42BFA57204B43DD3278C4C /* ESTLocationBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = E1642A1C9481ACE7AC14E5CD /* ESTLocationBuilder.h */; };
+		3D7C082D358E4DBB255956E6 /* ESTTriggerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C15F25EB5109B057E7AE19 /* ESTTriggerManager.h */; };
+		3D95F1AFFD3FF82BE929AD43 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEE2A3E694A7776F1A00C9 /* CoreLocation.framework */; };
+		3F44FBA2356B3BA29045473D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C4B44F4A39AB3C0E1AC473 /* UIKit.framework */; };
+		409A973B930FD3DB08927D38 /* Pods-proximibee_iosTests-EstimoteSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14127E3AAFBAFD86923573F3 /* Pods-proximibee_iosTests-EstimoteSDK-dummy.m */; };
+		409C4CEE19DE70B3C37A9E88 /* ESTBeaconManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DF3C45E1B9FC29F41176E28F /* ESTBeaconManager.h */; };
+		420BD5F48CAA7E3117E17A62 /* ESTFirmwareInfoVO.h in Headers */ = {isa = PBXBuildFile; fileRef = D373EB4C62B2866AE7D78FE2 /* ESTFirmwareInfoVO.h */; };
+		4260DF5B5964ACF2FFF30831 /* ESTBeaconRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = B85A180C9CDB2FD416E1B499 /* ESTBeaconRegion.h */; };
+		465E366D15908F9FD4143F75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635BCC5E7963F24C05978B8 /* Foundation.framework */; };
+		468F46868B06255297D683F7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F50405316EB56F05C288479 /* AVFoundation.framework */; };
+		469FB580810FCD7948ED3A64 /* ESTPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = FA480F5B43147D757AD3EC10 /* ESTPoint.h */; };
+		48AA98D6F9DC5E0813F40B88 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E301D4004D979B2796C7F2 /* MediaPlayer.framework */; };
+		4E5D9CCEBD0D9C0C57888189 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAD785ACB9BEE05B21FD9E7 /* SystemConfiguration.framework */; };
+		4E6BE5CE69F99F25CA1A47A4 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E301D4004D979B2796C7F2 /* MediaPlayer.framework */; };
+		51BA0FF054BA11104A1A1DCC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAD785ACB9BEE05B21FD9E7 /* SystemConfiguration.framework */; };
+		523FBAEEF311760693CFEBA2 /* ESTNearableDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = F889C21D9083449BF43D082F /* ESTNearableDefinitions.h */; };
+		532A63F81CF6087BBE829FF5 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD992F07C0EFF0130518E134 /* CoreBluetooth.framework */; };
+		55DE72AEED86C1A75EF29DCD /* ESTMotionRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 2039778A6E8C6C259818F68F /* ESTMotionRule.h */; };
+		591386D97335BCEDB3C32987 /* ESTProximityRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E1AC91AD7AE30ABE8FE515F /* ESTProximityRule.h */; };
+		593F83E31E3A5096F7ED29B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635BCC5E7963F24C05978B8 /* Foundation.framework */; };
+		594F15542888F5100052B2CD /* ESTBulkUpdater.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C4FC4D03F0CC2CA2DD2DD0 /* ESTBulkUpdater.h */; };
+		5A46E98F79A1110FAA6314CA /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F5C46B8343BBCBBF150BB0 /* Pods-dummy.m */; };
+		5A64DF1398A43813C139DA58 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AAE726E3D5A71D36B48A3AD /* MessageUI.framework */; };
+		5BD4D9E4FAE097F27E3171C6 /* ESTDateRule.h in Headers */ = {isa = PBXBuildFile; fileRef = F82D8281EEEEC9A3E2F8EF3C /* ESTDateRule.h */; };
+		5E63ADC0DE7AA5199B078E9F /* ESTBeaconFirmwareVO.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9B5E6130D1A6C5B1B44E38 /* ESTBeaconFirmwareVO.h */; };
+		6092D233C90149C6A4041BDD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D9C720CF583060C3569C96 /* AudioToolbox.framework */; };
+		612509D787DF02BD7A47F4ED /* ESTTemperatureRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CDB439C3685AC4AFBCB74AF /* ESTTemperatureRule.h */; };
+		61DF60A5E7A7D845504D937C /* ESTOrientationRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 81421EBED8D2F496B56EE745 /* ESTOrientationRule.h */; };
+		61FE26021FA44FFFAD73F7C6 /* ESTBeaconUpdateConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C07C2A999974FE9FA0E5041 /* ESTBeaconUpdateConfig.h */; };
+		63407AF7F375D3D9D4CF78CC /* ESTFirmwareInfoVO.h in Headers */ = {isa = PBXBuildFile; fileRef = D373EB4C62B2866AE7D78FE2 /* ESTFirmwareInfoVO.h */; };
+		63EF79A0642846EFECE4F6EA /* ESTOrientedPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C05EE7084AABD29EFFB7C7 /* ESTOrientedPoint.h */; };
+		670CE924E530760D3A6F15E0 /* ESTLocationLinearObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 725D64C463E123B095340840 /* ESTLocationLinearObject.h */; };
+		69CDB9BE6030F0FB8E2B1B56 /* ESTNearableRule.h in Headers */ = {isa = PBXBuildFile; fileRef = A0928BA49140861DB17C79E3 /* ESTNearableRule.h */; };
+		6D9B7F7EF04762CF6E494B1B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7D07F58F1D27A4A5C20E38 /* CoreGraphics.framework */; };
+		72AD600FA8FF55FEFDB631DF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E301D4004D979B2796C7F2 /* MediaPlayer.framework */; };
+		73B09BE7D87A74849DB6D566 /* ESTIndoorLocationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C51CACDA65922547FFF7AC /* ESTIndoorLocationView.h */; };
+		7435DAA799597451AF665929 /* ESTBeacon.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C311014CFBAE07F9AFEB2D /* ESTBeacon.h */; };
+		744ADF0C9A547FF5BD59C91A /* ESTBeaconDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B2681C8D0FC8F87E93A708 /* ESTBeaconDefinitions.h */; };
+		781CC587FB7D3DBF71A2D443 /* ESTTrigger.h in Headers */ = {isa = PBXBuildFile; fileRef = FDCCB86E0D14CF0ACF18A73A /* ESTTrigger.h */; };
+		7959DE4E1BC7F54CA858D6D9 /* ESTLocationLinearObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 725D64C463E123B095340840 /* ESTLocationLinearObject.h */; };
+		79648B8777886DE42579C14D /* ESTDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7E1B29A57E0CAE6E218BF0 /* ESTDefinitions.h */; };
+		79E213E9EFC03C8D6A0280D6 /* ESTPositionedBeacon.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5701954A6C5862C52864CE /* ESTPositionedBeacon.h */; };
+		7A3277A92CD8660E053619BC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEE2A3E694A7776F1A00C9 /* CoreLocation.framework */; };
+		7C006C2C21CD299BB83D8255 /* Pods-proximibee_ios-EstimoteIndoorSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED336CAD90A7D0ACECD33A0 /* Pods-proximibee_ios-EstimoteIndoorSDK-dummy.m */; };
+		7D7D7E0760B6B85BC491FAA7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D9C720CF583060C3569C96 /* AudioToolbox.framework */; };
+		7D875C3A33A810611D2D0456 /* Pods-proximibee_ios-EstimoteSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16412CAE355B2E8745065B7B /* Pods-proximibee_ios-EstimoteSDK-dummy.m */; };
+		7DA5647C9C7C9DFC87B026BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635BCC5E7963F24C05978B8 /* Foundation.framework */; };
+		7DB930DE6C597EE4021CED84 /* ESTNearable.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D4B355393186C0E7407C9B /* ESTNearable.h */; };
+		8192D236F5B7AF6835968DD8 /* ESTTemperatureRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CDB439C3685AC4AFBCB74AF /* ESTTemperatureRule.h */; };
+		861C6EC2F0EC053808112501 /* ESTBeaconManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DF3C45E1B9FC29F41176E28F /* ESTBeaconManager.h */; };
+		86B30A1DEFDD51156D77DCAE /* ESTRule.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AD0391AD678891E39E2FDC /* ESTRule.h */; };
+		87C3F7FA0FFB293BC1E2B589 /* ESTBeaconVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C880C3E16579D79F42E7CE7 /* ESTBeaconVO.h */; };
+		8959E9E3C08105D7130C1A64 /* ESTConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4383AD4B719367AEACC4BC7D /* ESTConfig.h */; };
+		8B29ACF94BFFCA1CCFA06053 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635BCC5E7963F24C05978B8 /* Foundation.framework */; };
+		8F47A7AD96F4FD0200D904EE /* ESTTriggerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C15F25EB5109B057E7AE19 /* ESTTriggerManager.h */; };
+		8FED473320D2D6AF455DCD7B /* ESTOrientedPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C05EE7084AABD29EFFB7C7 /* ESTOrientedPoint.h */; };
+		907847A9343F8648916A0F30 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AAE726E3D5A71D36B48A3AD /* MessageUI.framework */; };
+		92892A9EA79571B1F462C31E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAD785ACB9BEE05B21FD9E7 /* SystemConfiguration.framework */; };
+		95D896A3174C405B9B369AA5 /* ESTBeaconVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C880C3E16579D79F42E7CE7 /* ESTBeaconVO.h */; };
+		97691FE06E7D8BC75B5B6079 /* ESTNearableManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E85C574E4B042D73F5D0048 /* ESTNearableManager.h */; };
+		9795C6FC30360C5F9E7FE16A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C4B44F4A39AB3C0E1AC473 /* UIKit.framework */; };
+		9834EAD6FDDFB720DAB82C87 /* ESTNearableManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E85C574E4B042D73F5D0048 /* ESTNearableManager.h */; };
+		993D7FA87522D8B1CBB7C19B /* ESTBeaconUpdateConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C07C2A999974FE9FA0E5041 /* ESTBeaconUpdateConfig.h */; };
+		993FB64E435A21079001335E /* ESTIndoorLocationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C51CACDA65922547FFF7AC /* ESTIndoorLocationView.h */; };
+		99FEC62FEADE5B6D86C6DE46 /* ESTBeacon.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C311014CFBAE07F9AFEB2D /* ESTBeacon.h */; };
+		9B68848F96E63D0C8C384499 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936B64547D16FD3D1DC936F9 /* MobileCoreServices.framework */; };
+		9D108A4662759A0517FFBC8C /* ESTMotionRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 2039778A6E8C6C259818F68F /* ESTMotionRule.h */; };
+		9EA76F6FE1D3FEFA3B5853CD /* ESTIndoorLocationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C51CACDA65922547FFF7AC /* ESTIndoorLocationView.h */; };
+		9ECF9F77D994A41490F33BDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7D07F58F1D27A4A5C20E38 /* CoreGraphics.framework */; };
+		9F1D6D5EB38EB536B981CD11 /* ESTBeacon.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C311014CFBAE07F9AFEB2D /* ESTBeacon.h */; };
+		A27530289D897D0AB1AB8DD9 /* ESTTemperatureRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CDB439C3685AC4AFBCB74AF /* ESTTemperatureRule.h */; };
+		A63618CCA0B5CCFC7E9385B7 /* ESTPositionedBeacon.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5701954A6C5862C52864CE /* ESTPositionedBeacon.h */; };
+		A654152E868160EC9819BA41 /* ESTBeaconManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DF3C45E1B9FC29F41176E28F /* ESTBeaconManager.h */; };
+		A9963DC916CF97AD2DE9C117 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEE2A3E694A7776F1A00C9 /* CoreLocation.framework */; };
+		B25CF31DA89A4801344D83EB /* ESTNearableRule.h in Headers */ = {isa = PBXBuildFile; fileRef = A0928BA49140861DB17C79E3 /* ESTNearableRule.h */; };
+		B5020730BD969093CF56F852 /* ESTPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = FA480F5B43147D757AD3EC10 /* ESTPoint.h */; };
+		B941B1BF53ACFD6E47EFF3EC /* ESTTrigger.h in Headers */ = {isa = PBXBuildFile; fileRef = FDCCB86E0D14CF0ACF18A73A /* ESTTrigger.h */; };
+		B9A630732FF0610DDEAC7219 /* ESTBeaconUpdateInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6046167E5ACBF48FA3F8F168 /* ESTBeaconUpdateInfo.h */; };
+		BB0387EB97E88BF5B9C9D290 /* ESTBeaconDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B2681C8D0FC8F87E93A708 /* ESTBeaconDefinitions.h */; };
+		BC8B786245A8C31B46BE1A1D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D9C720CF583060C3569C96 /* AudioToolbox.framework */; };
+		BD1E037A3EB8058FF0CFDF23 /* ESTBeaconUpdateInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6046167E5ACBF48FA3F8F168 /* ESTBeaconUpdateInfo.h */; };
+		BDDB495A9CD0FE0203CD8B25 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD992F07C0EFF0130518E134 /* CoreBluetooth.framework */; };
+		BE60FFF90E423FAB0ADDF2E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C4B44F4A39AB3C0E1AC473 /* UIKit.framework */; };
+		C1787D58C6A3D348DF5418CD /* ESTBeaconUpdateConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C07C2A999974FE9FA0E5041 /* ESTBeaconUpdateConfig.h */; };
+		C18DEFB061A0C70A1180981E /* ESTBulkUpdater.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C4FC4D03F0CC2CA2DD2DD0 /* ESTBulkUpdater.h */; };
+		C1F43C30236FA8B5F32C885D /* Pods-EstimoteSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D44759C0C1721F7A14B2A /* Pods-EstimoteSDK-dummy.m */; };
+		C55B286F5587548122C4C98C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEE2A3E694A7776F1A00C9 /* CoreLocation.framework */; };
+		C56ED1B8DA9306EE90577D1E /* ESTConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4383AD4B719367AEACC4BC7D /* ESTConfig.h */; };
+		C5F9535BBE6A65A252126994 /* ESTNearable.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D4B355393186C0E7407C9B /* ESTNearable.h */; };
+		C94EF8605B2CDA733CFFEB13 /* ESTBeaconFirmwareVO.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9B5E6130D1A6C5B1B44E38 /* ESTBeaconFirmwareVO.h */; };
+		C9DF6F34E64320528EF623D7 /* Pods-proximibee_iosTests-EstimoteIndoorSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AB5910D05A608DEEEC447F /* Pods-proximibee_iosTests-EstimoteIndoorSDK-dummy.m */; };
+		CA444EAE78C55EEAB938495F /* ESTDateRule.h in Headers */ = {isa = PBXBuildFile; fileRef = F82D8281EEEEC9A3E2F8EF3C /* ESTDateRule.h */; };
+		CB17864799ECA7502E81E29C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635BCC5E7963F24C05978B8 /* Foundation.framework */; };
+		CF8E0444C3D925EF4EDF162E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C4B44F4A39AB3C0E1AC473 /* UIKit.framework */; };
+		D19843545C95C799D1D41254 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936B64547D16FD3D1DC936F9 /* MobileCoreServices.framework */; };
+		D253A042FFD58BE271E9F188 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7D07F58F1D27A4A5C20E38 /* CoreGraphics.framework */; };
+		D5ABD1229161C57E3DCC5477 /* ESTBeaconFirmwareVO.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9B5E6130D1A6C5B1B44E38 /* ESTBeaconFirmwareVO.h */; };
+		D7ACE98EAE557F1BD233F3B0 /* ESTPositionedBeacon.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5701954A6C5862C52864CE /* ESTPositionedBeacon.h */; };
+		D7C8058B8F810E4369DF4BEC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAD785ACB9BEE05B21FD9E7 /* SystemConfiguration.framework */; };
+		D91E15D1CE8F8BE60E1EC532 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE6AC39B1FF3F29FB627DAC /* CoreMotion.framework */; };
+		D921DD155EDAFDAAB29328BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635BCC5E7963F24C05978B8 /* Foundation.framework */; };
+		DBB8E8B4107D0F2A7A543FD7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAD785ACB9BEE05B21FD9E7 /* SystemConfiguration.framework */; };
+		E405775EA2C947C90D70E13E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936B64547D16FD3D1DC936F9 /* MobileCoreServices.framework */; };
+		E46EFF37236545D02C3FC74F /* ESTRule.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AD0391AD678891E39E2FDC /* ESTRule.h */; };
+		E5C53E5AA3C108364F3CC590 /* ESTIndoorLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 49887B0BC0C4DDA18084184C /* ESTIndoorLocationManager.h */; };
+		E790714D00A718F1C07B3DA0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAD785ACB9BEE05B21FD9E7 /* SystemConfiguration.framework */; };
+		E92AF94D46FBFA279BADE557 /* ESTTrigger.h in Headers */ = {isa = PBXBuildFile; fileRef = FDCCB86E0D14CF0ACF18A73A /* ESTTrigger.h */; };
+		E9B779BE7D8D8012F39141DD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F50405316EB56F05C288479 /* AVFoundation.framework */; };
+		EB3AADFDB17400FDB583B460 /* ESTOrientationRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 81421EBED8D2F496B56EE745 /* ESTOrientationRule.h */; };
+		ED376F6C6C608C1A9E10541D /* Pods-proximibee_ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF430148D11AF6DD1CC34E7D /* Pods-proximibee_ios-dummy.m */; };
+		ED618841414F12512C1A571F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936B64547D16FD3D1DC936F9 /* MobileCoreServices.framework */; };
+		EF089D6CBC4B1E16184223C8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F50405316EB56F05C288479 /* AVFoundation.framework */; };
+		EFBC925102AA789A662CEB76 /* ESTOrientedLineSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E4B5ED2C4F56953F500190F /* ESTOrientedLineSegment.h */; };
+		EFF3997874917D57F317E2EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635BCC5E7963F24C05978B8 /* Foundation.framework */; };
+		F11EB3531432CA085A0A5081 /* ESTIndoorLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 49887B0BC0C4DDA18084184C /* ESTIndoorLocationManager.h */; };
+		F2B2EC3D286A4CBAD5DA6E9D /* ESTMotionRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 2039778A6E8C6C259818F68F /* ESTMotionRule.h */; };
+		F2CD5B0E7428AF1B79AABD04 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936B64547D16FD3D1DC936F9 /* MobileCoreServices.framework */; };
+		F34692AFDB9DF548D221ACC2 /* ESTRule.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AD0391AD678891E39E2FDC /* ESTRule.h */; };
+		F38369A6EF224EFE9A563360 /* ESTNearableDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = F889C21D9083449BF43D082F /* ESTNearableDefinitions.h */; };
+		F384AF4B02DF3EF716D3657D /* ESTProximityRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E1AC91AD7AE30ABE8FE515F /* ESTProximityRule.h */; };
+		F412F9FADBC107CD27ADD2A5 /* ESTDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7E1B29A57E0CAE6E218BF0 /* ESTDefinitions.h */; };
+		F597E399D9CCC7883FFDF788 /* ESTFirmwareInfoVO.h in Headers */ = {isa = PBXBuildFile; fileRef = D373EB4C62B2866AE7D78FE2 /* ESTFirmwareInfoVO.h */; };
+		F5EA34F810260F29C7D3B408 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD992F07C0EFF0130518E134 /* CoreBluetooth.framework */; };
+		FFE93273CB170271FB43872F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635BCC5E7963F24C05978B8 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C8CA8CAFC1F86FEFAC078C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99F7D0017A48B6763084290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29EDF92E6A8BE36DDA077ED8;
+			remoteInfo = "Pods-proximibee_ios-EstimoteSDK";
+		};
+		0ED96D12BF79AA67DFA79E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99F7D0017A48B6763084290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32500FABBC296A329DDCDA4E;
+			remoteInfo = "Pods-proximibee_iosTests-EstimoteIndoorSDK";
+		};
+		27A6A6AF576DD4BFEABD9A3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99F7D0017A48B6763084290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04928382C191E4205B0AE94E;
+			remoteInfo = "Pods-EstimoteIndoorSDK";
+		};
+		2B0FF5FDDB222B060BECAF87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99F7D0017A48B6763084290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3128782A0E414889D0516DB;
+			remoteInfo = "Pods-EstimoteSDK";
+		};
+		5B72BEDAA071F536D8D44D7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99F7D0017A48B6763084290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29EDF92E6A8BE36DDA077ED8;
+			remoteInfo = "Pods-proximibee_ios-EstimoteSDK";
+		};
+		98B6EF51711917190D0A4F97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99F7D0017A48B6763084290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1D8732A298BD25FEA554C43;
+			remoteInfo = "Pods-proximibee_iosTests-EstimoteSDK";
+		};
+		B9BD1A62F4ED4BCA6297A75A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99F7D0017A48B6763084290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5989D44D82AC8598FF8BB2AB;
+			remoteInfo = "Pods-proximibee_ios-EstimoteIndoorSDK";
+		};
+		F06BA62D5072337D7E8EEE83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99F7D0017A48B6763084290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3128782A0E414889D0516DB;
+			remoteInfo = "Pods-EstimoteSDK";
+		};
+		F59AF7FA0EF948A64BC0D27C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99F7D0017A48B6763084290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1D8732A298BD25FEA554C43;
+			remoteInfo = "Pods-proximibee_iosTests-EstimoteSDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003AD7ED0E2CF14AB95CB5F2 /* 8a.mov */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = video.quicktime; name = 8a.mov; path = EstimoteIndoorLocationSDK/Resources/8a.mov; sourceTree = "<group>"; };
+		02F2DDE4800D95AC5A6D6D15 /* Pods-proximibee_iosTests-EstimoteIndoorSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proximibee_iosTests-EstimoteIndoorSDK.xcconfig"; path = "../Pods-proximibee_iosTests-EstimoteIndoorSDK/Pods-proximibee_iosTests-EstimoteIndoorSDK.xcconfig"; sourceTree = "<group>"; };
+		0396073BE1717A3CE7A9E192 /* Pods-proximibee_iosTests-EstimoteSDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proximibee_iosTests-EstimoteSDK-Private.xcconfig"; path = "../Pods-proximibee_iosTests-EstimoteSDK/Pods-proximibee_iosTests-EstimoteSDK-Private.xcconfig"; sourceTree = "<group>"; };
+		0E019D1C80030176000C282A /* Pods-proximibee_iosTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-proximibee_iosTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0E5D44759C0C1721F7A14B2A /* Pods-EstimoteSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EstimoteSDK-dummy.m"; sourceTree = "<group>"; };
+		0E73EC5051BDF20F9D875013 /* Pods-proximibee_ios-EstimoteIndoorSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-proximibee_ios-EstimoteIndoorSDK-prefix.pch"; path = "../Pods-proximibee_ios-EstimoteIndoorSDK/Pods-proximibee_ios-EstimoteIndoorSDK-prefix.pch"; sourceTree = "<group>"; };
+		0ED3AB3772DC1230080051ED /* beaconBlueberrySmall@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "beaconBlueberrySmall@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/beaconBlueberrySmall@2x.png"; sourceTree = "<group>"; };
+		14127E3AAFBAFD86923573F3 /* Pods-proximibee_iosTests-EstimoteSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-proximibee_iosTests-EstimoteSDK-dummy.m"; path = "../Pods-proximibee_iosTests-EstimoteSDK/Pods-proximibee_iosTests-EstimoteSDK-dummy.m"; sourceTree = "<group>"; };
+		1448C6728938647C8A37EC7D /* Pods-proximibee_ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-proximibee_ios-acknowledgements.markdown"; sourceTree = "<group>"; };
+		14AB5910D05A608DEEEC447F /* Pods-proximibee_iosTests-EstimoteIndoorSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-proximibee_iosTests-EstimoteIndoorSDK-dummy.m"; path = "../Pods-proximibee_iosTests-EstimoteIndoorSDK/Pods-proximibee_iosTests-EstimoteIndoorSDK-dummy.m"; sourceTree = "<group>"; };
+		16412CAE355B2E8745065B7B /* Pods-proximibee_ios-EstimoteSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-proximibee_ios-EstimoteSDK-dummy.m"; path = "../Pods-proximibee_ios-EstimoteSDK/Pods-proximibee_ios-EstimoteSDK-dummy.m"; sourceTree = "<group>"; };
+		16C311014CFBAE07F9AFEB2D /* ESTBeacon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTBeacon.h; path = EstimoteSDK/Headers/ESTBeacon.h; sourceTree = "<group>"; };
+		18538B99786309A5AC87A0A5 /* Pods-proximibee_ios-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-proximibee_ios-environment.h"; sourceTree = "<group>"; };
+		1ACABE64228720FFCE289E2A /* beaconblueberry@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "beaconblueberry@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/beaconblueberry@2x.png"; sourceTree = "<group>"; };
+		1C39EA64A78BD2E6E1903B10 /* wall_bump.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = wall_bump.wav; path = EstimoteIndoorLocationSDK/Resources/wall_bump.wav; sourceTree = "<group>"; };
+		2039778A6E8C6C259818F68F /* ESTMotionRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTMotionRule.h; path = EstimoteSDK/Headers/ESTMotionRule.h; sourceTree = "<group>"; };
+		2088ED64956CF4A74BC2797F /* SixBeaconsView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SixBeaconsView.xib; path = EstimoteIndoorLocationSDK/Resources/SixBeaconsView.xib; sourceTree = "<group>"; };
+		24BB2BE99D7C4FF0E0584488 /* Pods-proximibee_iosTests-EstimoteSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-proximibee_iosTests-EstimoteSDK-prefix.pch"; path = "../Pods-proximibee_iosTests-EstimoteSDK/Pods-proximibee_iosTests-EstimoteSDK-prefix.pch"; sourceTree = "<group>"; };
+		28C15F25EB5109B057E7AE19 /* ESTTriggerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTTriggerManager.h; path = EstimoteSDK/Headers/ESTTriggerManager.h; sourceTree = "<group>"; };
+		2D09CA26783B8A6200E29577 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		2E6DD2079AD50A7D38985C23 /* 8c_first_frame@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "8c_first_frame@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/8c_first_frame@2x.png"; sourceTree = "<group>"; };
+		321C615798058C636CB52CF5 /* Pods-proximibee_iosTests-EstimoteSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proximibee_iosTests-EstimoteSDK.xcconfig"; path = "../Pods-proximibee_iosTests-EstimoteSDK/Pods-proximibee_iosTests-EstimoteSDK.xcconfig"; sourceTree = "<group>"; };
+		369BA8C445F4641CC8135545 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		384E98465DF0870E3C7B2D7B /* Pods-proximibee_ios-EstimoteIndoorSDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proximibee_ios-EstimoteIndoorSDK-Private.xcconfig"; path = "../Pods-proximibee_ios-EstimoteIndoorSDK/Pods-proximibee_ios-EstimoteIndoorSDK-Private.xcconfig"; sourceTree = "<group>"; };
+		3BAD785ACB9BEE05B21FD9E7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		3ED336CAD90A7D0ACECD33A0 /* Pods-proximibee_ios-EstimoteIndoorSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-proximibee_ios-EstimoteIndoorSDK-dummy.m"; path = "../Pods-proximibee_ios-EstimoteIndoorSDK/Pods-proximibee_ios-EstimoteIndoorSDK-dummy.m"; sourceTree = "<group>"; };
+		40950D05F0CCBFDD51A586C5 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		4133CD4F75DFB47B8BAD0897 /* ESTLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTLocation.h; path = EstimoteIndoorLocationSDK/Headers/ESTLocation.h; sourceTree = "<group>"; };
+		4356CCB79A651732E2E518C2 /* Pods-proximibee_ios-EstimoteSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-proximibee_ios-EstimoteSDK-prefix.pch"; path = "../Pods-proximibee_ios-EstimoteSDK/Pods-proximibee_ios-EstimoteSDK-prefix.pch"; sourceTree = "<group>"; };
+		4383AD4B719367AEACC4BC7D /* ESTConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTConfig.h; path = EstimoteSDK/Headers/ESTConfig.h; sourceTree = "<group>"; };
+		43D9C720CF583060C3569C96 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		440F063CD5415B3BAEFFC670 /* libPods-proximibee_ios-EstimoteIndoorSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-proximibee_ios-EstimoteIndoorSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47DF5B71002FE238D6DC5435 /* Pods-EstimoteIndoorSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EstimoteIndoorSDK-dummy.m"; sourceTree = "<group>"; };
+		49887B0BC0C4DDA18084184C /* ESTIndoorLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTIndoorLocationManager.h; path = EstimoteIndoorLocationSDK/Headers/ESTIndoorLocationManager.h; sourceTree = "<group>"; };
+		49C9EC0A32797EB7B886B81A /* 5b.mov */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = video.quicktime; name = 5b.mov; path = EstimoteIndoorLocationSDK/Resources/5b.mov; sourceTree = "<group>"; };
+		4E717C4D19815818529E72C5 /* Pods-EstimoteSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EstimoteSDK.xcconfig"; sourceTree = "<group>"; };
+		53C9C053F6A31D68FB128224 /* Pods-proximibee_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-proximibee_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		54426AACA33A421F60A03B99 /* Images */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Images; path = EstimoteIndoorLocationSDK/Resources/Images; sourceTree = "<group>"; };
+		559B436246A7B841D3ACD4FB /* screen8_beacon_purple@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "screen8_beacon_purple@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/screen8_beacon_purple@2x.png"; sourceTree = "<group>"; };
+		5902DD6A10525EEEC598A205 /* 8a_first_frame@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "8a_first_frame@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/8a_first_frame@2x.png"; sourceTree = "<group>"; };
+		59CC6DA92A7F0A4B752B4DF6 /* Pods-proximibee_ios-EstimoteSDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proximibee_ios-EstimoteSDK-Private.xcconfig"; path = "../Pods-proximibee_ios-EstimoteSDK/Pods-proximibee_ios-EstimoteSDK-Private.xcconfig"; sourceTree = "<group>"; };
+		5A7D07F58F1D27A4A5C20E38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		5AAE726E3D5A71D36B48A3AD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		5C07C2A999974FE9FA0E5041 /* ESTBeaconUpdateConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTBeaconUpdateConfig.h; path = EstimoteSDK/Headers/ESTBeaconUpdateConfig.h; sourceTree = "<group>"; };
+		5C8E84B8BD6B83D1E97E3BE8 /* welcome@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "welcome@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/welcome@2x.png"; sourceTree = "<group>"; };
+		5CDB439C3685AC4AFBCB74AF /* ESTTemperatureRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTTemperatureRule.h; path = EstimoteSDK/Headers/ESTTemperatureRule.h; sourceTree = "<group>"; };
+		5E42C70A2A62D988AC0C7CDE /* Pods-proximibee_iosTests-EstimoteIndoorSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-proximibee_iosTests-EstimoteIndoorSDK-prefix.pch"; path = "../Pods-proximibee_iosTests-EstimoteIndoorSDK/Pods-proximibee_iosTests-EstimoteIndoorSDK-prefix.pch"; sourceTree = "<group>"; };
+		6046167E5ACBF48FA3F8F168 /* ESTBeaconUpdateInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTBeaconUpdateInfo.h; path = EstimoteSDK/Headers/ESTBeaconUpdateInfo.h; sourceTree = "<group>"; };
+		64E70AB343DDE7C6692AA403 /* libPods-proximibee_iosTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-proximibee_iosTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BF962EED9BD14478EEFFEF /* 5a_first_frame@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "5a_first_frame@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/5a_first_frame@2x.png"; sourceTree = "<group>"; };
+		6910A00B243E4D89732AB2CA /* indoor_error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "indoor_error@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/indoor_error@2x.png"; sourceTree = "<group>"; };
+		6E4B5ED2C4F56953F500190F /* ESTOrientedLineSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTOrientedLineSegment.h; path = EstimoteIndoorLocationSDK/Headers/ESTOrientedLineSegment.h; sourceTree = "<group>"; };
+		6E85C574E4B042D73F5D0048 /* ESTNearableManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTNearableManager.h; path = EstimoteSDK/Headers/ESTNearableManager.h; sourceTree = "<group>"; };
+		6F50405316EB56F05C288479 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		725D64C463E123B095340840 /* ESTLocationLinearObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTLocationLinearObject.h; path = EstimoteIndoorLocationSDK/Headers/ESTLocationLinearObject.h; sourceTree = "<group>"; };
+		726A448C0B1321F5536FED82 /* Pods-EstimoteIndoorSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EstimoteIndoorSDK.xcconfig"; sourceTree = "<group>"; };
+		72C8609A5C4289A253E7D74B /* screen8_beacon_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "screen8_beacon_blue@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/screen8_beacon_blue@2x.png"; sourceTree = "<group>"; };
+		79C147BAF17FF04E68E2C4AB /* libPods-EstimoteSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EstimoteSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE6AC39B1FF3F29FB627DAC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		7C880C3E16579D79F42E7CE7 /* ESTBeaconVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTBeaconVO.h; path = EstimoteSDK/Headers/ESTBeaconVO.h; sourceTree = "<group>"; };
+		7CB34D105CBDEFCC87F1CE53 /* screen8_beacon_gray_trans@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "screen8_beacon_gray_trans@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/screen8_beacon_gray_trans@2x.png"; sourceTree = "<group>"; };
+		7DC40B7ED750A8580F0B22B5 /* 5b_first_frame@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "5b_first_frame@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/5b_first_frame@2x.png"; sourceTree = "<group>"; };
+		7E1AC91AD7AE30ABE8FE515F /* ESTProximityRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTProximityRule.h; path = EstimoteSDK/Headers/ESTProximityRule.h; sourceTree = "<group>"; };
+		81421EBED8D2F496B56EE745 /* ESTOrientationRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTOrientationRule.h; path = EstimoteSDK/Headers/ESTOrientationRule.h; sourceTree = "<group>"; };
+		82789B1C363083F3E63E96E0 /* libPods-proximibee_ios-EstimoteSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-proximibee_ios-EstimoteSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8324972C9EF10BE4FEB01EEE /* libPods-proximibee_ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-proximibee_ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8406DB341340E7F36ACEBEA3 /* Pods-proximibee_iosTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-proximibee_iosTests-dummy.m"; sourceTree = "<group>"; };
+		8611FC6A1728CBD066F9261C /* navigation_guy@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "navigation_guy@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/navigation_guy@2x.png"; sourceTree = "<group>"; };
+		87D4B355393186C0E7407C9B /* ESTNearable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTNearable.h; path = EstimoteSDK/Headers/ESTNearable.h; sourceTree = "<group>"; };
+		88C51CACDA65922547FFF7AC /* ESTIndoorLocationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTIndoorLocationView.h; path = EstimoteIndoorLocationSDK/Headers/ESTIndoorLocationView.h; sourceTree = "<group>"; };
+		8B5A1DAC5349E8DB87E424B9 /* Pods-proximibee_iosTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-proximibee_iosTests-environment.h"; sourceTree = "<group>"; };
+		8B8AAC669E733E087BB5DB70 /* screen8_beacon_green@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "screen8_beacon_green@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/screen8_beacon_green@2x.png"; sourceTree = "<group>"; };
+		8E59D4BC03B7F9F3BAD8770E /* 8b.mov */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = video.quicktime; name = 8b.mov; path = EstimoteIndoorLocationSDK/Resources/8b.mov; sourceTree = "<group>"; };
+		8EE9F8DC7A4BBF7F9E4A05AF /* libEstimoteIndoorSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libEstimoteIndoorSDK.a; path = EstimoteIndoorLocationSDK/libEstimoteIndoorSDK.a; sourceTree = "<group>"; };
+		8F540544E5B8E482992833B7 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		912CC946EE18FD8DAE05CEE1 /* Pods-proximibee_ios-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-proximibee_ios-resources.sh"; sourceTree = "<group>"; };
+		91942F94F5D9363699C409E5 /* Pods-EstimoteIndoorSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EstimoteIndoorSDK-prefix.pch"; sourceTree = "<group>"; };
+		92303E224F393C9379041010 /* libEstimoteSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libEstimoteSDK.a; path = EstimoteSDK/libEstimoteSDK.a; sourceTree = "<group>"; };
+		936B64547D16FD3D1DC936F9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		9B115C44B91A8C0C695A4562 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		9DC582DC9E125609DE5A239F /* libPods-proximibee_iosTests-EstimoteSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-proximibee_iosTests-EstimoteSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBAABD110052E6DF5492E7D /* libPods-proximibee_iosTests-EstimoteIndoorSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-proximibee_iosTests-EstimoteIndoorSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F3489D950B922D9840FE0D2 /* beaconIcySmall.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = beaconIcySmall.png; path = EstimoteIndoorLocationSDK/Resources/Images/beaconIcySmall.png; sourceTree = "<group>"; };
+		A01DD44BD663560685827B51 /* Pods-proximibee_ios-EstimoteIndoorSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proximibee_ios-EstimoteIndoorSDK.xcconfig"; path = "../Pods-proximibee_ios-EstimoteIndoorSDK/Pods-proximibee_ios-EstimoteIndoorSDK.xcconfig"; sourceTree = "<group>"; };
+		A0928BA49140861DB17C79E3 /* ESTNearableRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTNearableRule.h; path = EstimoteSDK/Headers/ESTNearableRule.h; sourceTree = "<group>"; };
+		A1B506B528283CF57FD0996C /* beaconmint@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "beaconmint@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/beaconmint@2x.png"; sourceTree = "<group>"; };
+		A5AD0391AD678891E39E2FDC /* ESTRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTRule.h; path = EstimoteSDK/Headers/ESTRule.h; sourceTree = "<group>"; };
+		A635BCC5E7963F24C05978B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A88F9DADF05CA2062276E144 /* Pods-EstimoteSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EstimoteSDK-prefix.pch"; sourceTree = "<group>"; };
+		A8D12CA9B879554F1845539F /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ABDFE1BAE0E66DC2B60ED202 /* Pods-proximibee_iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-proximibee_iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC5701954A6C5862C52864CE /* ESTPositionedBeacon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTPositionedBeacon.h; path = EstimoteIndoorLocationSDK/Headers/ESTPositionedBeacon.h; sourceTree = "<group>"; };
+		AC9B5E6130D1A6C5B1B44E38 /* ESTBeaconFirmwareVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTBeaconFirmwareVO.h; path = EstimoteSDK/Headers/ESTBeaconFirmwareVO.h; sourceTree = "<group>"; };
+		ACCC9E8A28624FF551FD24A5 /* Pods-proximibee_iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-proximibee_iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0247DD7338A4B32097C5BA2 /* beaconIcySmall@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "beaconIcySmall@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/beaconIcySmall@2x.png"; sourceTree = "<group>"; };
+		B0924C126AA9E3A2A6A7949B /* libPods-EstimoteIndoorSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EstimoteIndoorSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DB9F6F3F212FB4CF47DB0C /* 5a.mov */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = video.quicktime; name = 5a.mov; path = EstimoteIndoorLocationSDK/Resources/5a.mov; sourceTree = "<group>"; };
+		B66384B37A96BBFE6094BBC3 /* instructions@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "instructions@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/instructions@2x.png"; sourceTree = "<group>"; };
+		B85A180C9CDB2FD416E1B499 /* ESTBeaconRegion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTBeaconRegion.h; path = EstimoteSDK/Headers/ESTBeaconRegion.h; sourceTree = "<group>"; };
+		BC69289F954B8E24FC5BA700 /* beaconGreySmall@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "beaconGreySmall@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/beaconGreySmall@2x.png"; sourceTree = "<group>"; };
+		BF430148D11AF6DD1CC34E7D /* Pods-proximibee_ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-proximibee_ios-dummy.m"; sourceTree = "<group>"; };
+		C5DEE2A3E694A7776F1A00C9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		C8BAB36FBEABA033FF49C235 /* Pods-EstimoteIndoorSDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EstimoteIndoorSDK-Private.xcconfig"; sourceTree = "<group>"; };
+		CA0D24691660BC68EB0A35DF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC29F2E07000C54AADC7133 /* Pods-EstimoteSDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EstimoteSDK-Private.xcconfig"; sourceTree = "<group>"; };
+		D0248BB76493DDD0E6C59013 /* Pods-proximibee_iosTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-proximibee_iosTests-resources.sh"; sourceTree = "<group>"; };
+		D080A567C679352EA83B1F41 /* beaconBlueberrySmall.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = beaconBlueberrySmall.png; path = EstimoteIndoorLocationSDK/Resources/Images/beaconBlueberrySmall.png; sourceTree = "<group>"; };
+		D252D2F700CC895ACC963441 /* Pods-proximibee_iosTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-proximibee_iosTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D373EB4C62B2866AE7D78FE2 /* ESTFirmwareInfoVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTFirmwareInfoVO.h; path = EstimoteSDK/Headers/ESTFirmwareInfoVO.h; sourceTree = "<group>"; };
+		D392BF79BF15655F5391BE0F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		D3C05EE7084AABD29EFFB7C7 /* ESTOrientedPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTOrientedPoint.h; path = EstimoteIndoorLocationSDK/Headers/ESTOrientedPoint.h; sourceTree = "<group>"; };
+		D3F5C46B8343BBCBBF150BB0 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		D9A55C4AFB80132F7251BAA4 /* beacongrey@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "beacongrey@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/beacongrey@2x.png"; sourceTree = "<group>"; };
+		DB1DF5D92775D3807A26ABE4 /* Pods-proximibee_ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-proximibee_ios-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC194BE8F8477B7B526388FA /* beaconMintSmall.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = beaconMintSmall.png; path = EstimoteIndoorLocationSDK/Resources/Images/beaconMintSmall.png; sourceTree = "<group>"; };
+		DD7E1B29A57E0CAE6E218BF0 /* ESTDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTDefinitions.h; path = EstimoteSDK/Headers/ESTDefinitions.h; sourceTree = "<group>"; };
+		DDEA9C2C9B15DC84F7AC067D /* Pods-proximibee_ios-EstimoteSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proximibee_ios-EstimoteSDK.xcconfig"; path = "../Pods-proximibee_ios-EstimoteSDK/Pods-proximibee_ios-EstimoteSDK.xcconfig"; sourceTree = "<group>"; };
+		DF3C45E1B9FC29F41176E28F /* ESTBeaconManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTBeaconManager.h; path = EstimoteSDK/Headers/ESTBeaconManager.h; sourceTree = "<group>"; };
+		E0C4FC4D03F0CC2CA2DD2DD0 /* ESTBulkUpdater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTBulkUpdater.h; path = EstimoteSDK/Headers/ESTBulkUpdater.h; sourceTree = "<group>"; };
+		E1642A1C9481ACE7AC14E5CD /* ESTLocationBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTLocationBuilder.h; path = EstimoteIndoorLocationSDK/Headers/ESTLocationBuilder.h; sourceTree = "<group>"; };
+		E6C4B44F4A39AB3C0E1AC473 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E7816DFBE3F884A3DE788BC5 /* beacon_grey@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "beacon_grey@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/beacon_grey@2x.png"; sourceTree = "<group>"; };
+		E7E301D4004D979B2796C7F2 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		E7F53E929252EC851DF43E65 /* 8c.mov */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = video.quicktime; name = 8c.mov; path = EstimoteIndoorLocationSDK/Resources/8c.mov; sourceTree = "<group>"; };
+		E800CD98710185CFC13B61FA /* Pods-proximibee_iosTests-EstimoteIndoorSDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-proximibee_iosTests-EstimoteIndoorSDK-Private.xcconfig"; path = "../Pods-proximibee_iosTests-EstimoteIndoorSDK/Pods-proximibee_iosTests-EstimoteIndoorSDK-Private.xcconfig"; sourceTree = "<group>"; };
+		E824E2E45008C89F6A2794AA /* 8b_first_frame@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "8b_first_frame@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/8b_first_frame@2x.png"; sourceTree = "<group>"; };
+		F4B2681C8D0FC8F87E93A708 /* ESTBeaconDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTBeaconDefinitions.h; path = EstimoteSDK/Headers/ESTBeaconDefinitions.h; sourceTree = "<group>"; };
+		F5401F227C703CD3F40980A0 /* beaconicy@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "beaconicy@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/beaconicy@2x.png"; sourceTree = "<group>"; };
+		F7A98732148E44B5CE0857CE /* screen8_beacon_gray@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "screen8_beacon_gray@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/screen8_beacon_gray@2x.png"; sourceTree = "<group>"; };
+		F82D8281EEEEC9A3E2F8EF3C /* ESTDateRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTDateRule.h; path = EstimoteSDK/Headers/ESTDateRule.h; sourceTree = "<group>"; };
+		F889C21D9083449BF43D082F /* ESTNearableDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTNearableDefinitions.h; path = EstimoteSDK/Headers/ESTNearableDefinitions.h; sourceTree = "<group>"; };
+		F911710F0913DE5B97003435 /* beaconMintSmall@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "beaconMintSmall@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/beaconMintSmall@2x.png"; sourceTree = "<group>"; };
+		FA480F5B43147D757AD3EC10 /* ESTPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTPoint.h; path = EstimoteIndoorLocationSDK/Headers/ESTPoint.h; sourceTree = "<group>"; };
+		FD85359614E6D28C7FF12863 /* tick@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tick@2x.png"; path = "EstimoteIndoorLocationSDK/Resources/Images/tick@2x.png"; sourceTree = "<group>"; };
+		FD992F07C0EFF0130518E134 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		FDCCB86E0D14CF0ACF18A73A /* ESTTrigger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ESTTrigger.h; path = EstimoteSDK/Headers/ESTTrigger.h; sourceTree = "<group>"; };
+		FDE7B94E8C762AC997C5C4D2 /* Pods-proximibee_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-proximibee_ios.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00608BC99F19CF443FA768C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D95F1AFFD3FF82BE929AD43 /* CoreLocation.framework in Frameworks */,
+				CB17864799ECA7502E81E29C /* Foundation.framework in Frameworks */,
+				D19843545C95C799D1D41254 /* MobileCoreServices.framework in Frameworks */,
+				E790714D00A718F1C07B3DA0 /* SystemConfiguration.framework in Frameworks */,
+				BE60FFF90E423FAB0ADDF2E2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1151D9F96757078F23F9BDE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A3277A92CD8660E053619BC /* CoreLocation.framework in Frameworks */,
+				465E366D15908F9FD4143F75 /* Foundation.framework in Frameworks */,
+				E405775EA2C947C90D70E13E /* MobileCoreServices.framework in Frameworks */,
+				DBB8E8B4107D0F2A7A543FD7 /* SystemConfiguration.framework in Frameworks */,
+				CF8E0444C3D925EF4EDF162E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E4F1182FDD2338E1A56070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B29ACF94BFFCA1CCFA06053 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BC5D2323F1C724BB0A6D5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D921DD155EDAFDAAB29328BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BE9898EEBEE1EE93727D73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D6CCA3E3576744906CF8AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BE0A36E6A332483F146ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF089D6CBC4B1E16184223C8 /* AVFoundation.framework in Frameworks */,
+				BC8B786245A8C31B46BE1A1D /* AudioToolbox.framework in Frameworks */,
+				532A63F81CF6087BBE829FF5 /* CoreBluetooth.framework in Frameworks */,
+				9ECF9F77D994A41490F33BDA /* CoreGraphics.framework in Frameworks */,
+				2B57A4D0B540CEF6652F1763 /* CoreLocation.framework in Frameworks */,
+				1F7D32906A17FF019E8E2074 /* CoreMotion.framework in Frameworks */,
+				FFE93273CB170271FB43872F /* Foundation.framework in Frameworks */,
+				4E6BE5CE69F99F25CA1A47A4 /* MediaPlayer.framework in Frameworks */,
+				907847A9343F8648916A0F30 /* MessageUI.framework in Frameworks */,
+				ED618841414F12512C1A571F /* MobileCoreServices.framework in Frameworks */,
+				D7C8058B8F810E4369DF4BEC /* SystemConfiguration.framework in Frameworks */,
+				0586010A16C31D23A8153C0A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BEDAB5C1E4BEF89613ED3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B779BE7D8D8012F39141DD /* AVFoundation.framework in Frameworks */,
+				7D7D7E0760B6B85BC491FAA7 /* AudioToolbox.framework in Frameworks */,
+				BDDB495A9CD0FE0203CD8B25 /* CoreBluetooth.framework in Frameworks */,
+				D253A042FFD58BE271E9F188 /* CoreGraphics.framework in Frameworks */,
+				12709BA6E71021116A1F868B /* CoreLocation.framework in Frameworks */,
+				32433E8AE8DFC7817CFD2D5A /* CoreMotion.framework in Frameworks */,
+				593F83E31E3A5096F7ED29B9 /* Foundation.framework in Frameworks */,
+				72AD600FA8FF55FEFDB631DF /* MediaPlayer.framework in Frameworks */,
+				12832ACB19C28453685650AD /* MessageUI.framework in Frameworks */,
+				9B68848F96E63D0C8C384499 /* MobileCoreServices.framework in Frameworks */,
+				51BA0FF054BA11104A1A1DCC /* SystemConfiguration.framework in Frameworks */,
+				3F44FBA2356B3BA29045473D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853512936C7B44D5B24829D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468F46868B06255297D683F7 /* AVFoundation.framework in Frameworks */,
+				6092D233C90149C6A4041BDD /* AudioToolbox.framework in Frameworks */,
+				F5EA34F810260F29C7D3B408 /* CoreBluetooth.framework in Frameworks */,
+				6D9B7F7EF04762CF6E494B1B /* CoreGraphics.framework in Frameworks */,
+				A9963DC916CF97AD2DE9C117 /* CoreLocation.framework in Frameworks */,
+				D91E15D1CE8F8BE60E1EC532 /* CoreMotion.framework in Frameworks */,
+				EFF3997874917D57F317E2EA /* Foundation.framework in Frameworks */,
+				48AA98D6F9DC5E0813F40B88 /* MediaPlayer.framework in Frameworks */,
+				5A64DF1398A43813C139DA58 /* MessageUI.framework in Frameworks */,
+				395D66AEDA42F2555FBE741D /* MobileCoreServices.framework in Frameworks */,
+				4E5D9CCEBD0D9C0C57888189 /* SystemConfiguration.framework in Frameworks */,
+				9795C6FC30360C5F9E7FE16A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9492CDE7C67B36FD1958FB78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55B286F5587548122C4C98C /* CoreLocation.framework in Frameworks */,
+				7DA5647C9C7C9DFC87B026BC /* Foundation.framework in Frameworks */,
+				F2CD5B0E7428AF1B79AABD04 /* MobileCoreServices.framework in Frameworks */,
+				92892A9EA79571B1F462C31E /* SystemConfiguration.framework in Frameworks */,
+				0620D04BB6B400C9F9CA8304 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C658C1081412F531BE82533 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E717C4D19815818529E72C5 /* Pods-EstimoteSDK.xcconfig */,
+				CBC29F2E07000C54AADC7133 /* Pods-EstimoteSDK-Private.xcconfig */,
+				0E5D44759C0C1721F7A14B2A /* Pods-EstimoteSDK-dummy.m */,
+				A88F9DADF05CA2062276E144 /* Pods-EstimoteSDK-prefix.pch */,
+				DDEA9C2C9B15DC84F7AC067D /* Pods-proximibee_ios-EstimoteSDK.xcconfig */,
+				59CC6DA92A7F0A4B752B4DF6 /* Pods-proximibee_ios-EstimoteSDK-Private.xcconfig */,
+				16412CAE355B2E8745065B7B /* Pods-proximibee_ios-EstimoteSDK-dummy.m */,
+				4356CCB79A651732E2E518C2 /* Pods-proximibee_ios-EstimoteSDK-prefix.pch */,
+				321C615798058C636CB52CF5 /* Pods-proximibee_iosTests-EstimoteSDK.xcconfig */,
+				0396073BE1717A3CE7A9E192 /* Pods-proximibee_iosTests-EstimoteSDK-Private.xcconfig */,
+				14127E3AAFBAFD86923573F3 /* Pods-proximibee_iosTests-EstimoteSDK-dummy.m */,
+				24BB2BE99D7C4FF0E0584488 /* Pods-proximibee_iosTests-EstimoteSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-EstimoteSDK";
+			sourceTree = "<group>";
+		};
+		123A4C6F356DCCDFFB42768A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				726A448C0B1321F5536FED82 /* Pods-EstimoteIndoorSDK.xcconfig */,
+				C8BAB36FBEABA033FF49C235 /* Pods-EstimoteIndoorSDK-Private.xcconfig */,
+				47DF5B71002FE238D6DC5435 /* Pods-EstimoteIndoorSDK-dummy.m */,
+				91942F94F5D9363699C409E5 /* Pods-EstimoteIndoorSDK-prefix.pch */,
+				A01DD44BD663560685827B51 /* Pods-proximibee_ios-EstimoteIndoorSDK.xcconfig */,
+				384E98465DF0870E3C7B2D7B /* Pods-proximibee_ios-EstimoteIndoorSDK-Private.xcconfig */,
+				3ED336CAD90A7D0ACECD33A0 /* Pods-proximibee_ios-EstimoteIndoorSDK-dummy.m */,
+				0E73EC5051BDF20F9D875013 /* Pods-proximibee_ios-EstimoteIndoorSDK-prefix.pch */,
+				02F2DDE4800D95AC5A6D6D15 /* Pods-proximibee_iosTests-EstimoteIndoorSDK.xcconfig */,
+				E800CD98710185CFC13B61FA /* Pods-proximibee_iosTests-EstimoteIndoorSDK-Private.xcconfig */,
+				14AB5910D05A608DEEEC447F /* Pods-proximibee_iosTests-EstimoteIndoorSDK-dummy.m */,
+				5E42C70A2A62D988AC0C7CDE /* Pods-proximibee_iosTests-EstimoteIndoorSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-EstimoteIndoorSDK";
+			sourceTree = "<group>";
+		};
+		3C1D03FAF0FD065793096210 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EF18E6892F0EAB8F1439245 /* EstimoteIndoorSDK */,
+				CF1215BF0F059B8C20826B92 /* EstimoteSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3EF18E6892F0EAB8F1439245 /* EstimoteIndoorSDK */ = {
+			isa = PBXGroup;
+			children = (
+				49887B0BC0C4DDA18084184C /* ESTIndoorLocationManager.h */,
+				88C51CACDA65922547FFF7AC /* ESTIndoorLocationView.h */,
+				4133CD4F75DFB47B8BAD0897 /* ESTLocation.h */,
+				E1642A1C9481ACE7AC14E5CD /* ESTLocationBuilder.h */,
+				725D64C463E123B095340840 /* ESTLocationLinearObject.h */,
+				6E4B5ED2C4F56953F500190F /* ESTOrientedLineSegment.h */,
+				D3C05EE7084AABD29EFFB7C7 /* ESTOrientedPoint.h */,
+				FA480F5B43147D757AD3EC10 /* ESTPoint.h */,
+				AC5701954A6C5862C52864CE /* ESTPositionedBeacon.h */,
+				566EE356D5296DBEA3A10DD1 /* Frameworks */,
+				656250A4C1E207EF56B3BB3C /* Resources */,
+				123A4C6F356DCCDFFB42768A /* Support Files */,
+			);
+			path = EstimoteIndoorSDK;
+			sourceTree = "<group>";
+		};
+		566EE356D5296DBEA3A10DD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EE9F8DC7A4BBF7F9E4A05AF /* libEstimoteIndoorSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		656250A4C1E207EF56B3BB3C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5DB9F6F3F212FB4CF47DB0C /* 5a.mov */,
+				66BF962EED9BD14478EEFFEF /* 5a_first_frame@2x.png */,
+				49C9EC0A32797EB7B886B81A /* 5b.mov */,
+				7DC40B7ED750A8580F0B22B5 /* 5b_first_frame@2x.png */,
+				003AD7ED0E2CF14AB95CB5F2 /* 8a.mov */,
+				5902DD6A10525EEEC598A205 /* 8a_first_frame@2x.png */,
+				8E59D4BC03B7F9F3BAD8770E /* 8b.mov */,
+				E824E2E45008C89F6A2794AA /* 8b_first_frame@2x.png */,
+				E7F53E929252EC851DF43E65 /* 8c.mov */,
+				2E6DD2079AD50A7D38985C23 /* 8c_first_frame@2x.png */,
+				54426AACA33A421F60A03B99 /* Images */,
+				2088ED64956CF4A74BC2797F /* SixBeaconsView.xib */,
+				D080A567C679352EA83B1F41 /* beaconBlueberrySmall.png */,
+				0ED3AB3772DC1230080051ED /* beaconBlueberrySmall@2x.png */,
+				BC69289F954B8E24FC5BA700 /* beaconGreySmall@2x.png */,
+				9F3489D950B922D9840FE0D2 /* beaconIcySmall.png */,
+				B0247DD7338A4B32097C5BA2 /* beaconIcySmall@2x.png */,
+				DC194BE8F8477B7B526388FA /* beaconMintSmall.png */,
+				F911710F0913DE5B97003435 /* beaconMintSmall@2x.png */,
+				E7816DFBE3F884A3DE788BC5 /* beacon_grey@2x.png */,
+				1ACABE64228720FFCE289E2A /* beaconblueberry@2x.png */,
+				D9A55C4AFB80132F7251BAA4 /* beacongrey@2x.png */,
+				F5401F227C703CD3F40980A0 /* beaconicy@2x.png */,
+				A1B506B528283CF57FD0996C /* beaconmint@2x.png */,
+				6910A00B243E4D89732AB2CA /* indoor_error@2x.png */,
+				B66384B37A96BBFE6094BBC3 /* instructions@2x.png */,
+				8611FC6A1728CBD066F9261C /* navigation_guy@2x.png */,
+				72C8609A5C4289A253E7D74B /* screen8_beacon_blue@2x.png */,
+				F7A98732148E44B5CE0857CE /* screen8_beacon_gray@2x.png */,
+				7CB34D105CBDEFCC87F1CE53 /* screen8_beacon_gray_trans@2x.png */,
+				8B8AAC669E733E087BB5DB70 /* screen8_beacon_green@2x.png */,
+				559B436246A7B841D3ACD4FB /* screen8_beacon_purple@2x.png */,
+				FD85359614E6D28C7FF12863 /* tick@2x.png */,
+				1C39EA64A78BD2E6E1903B10 /* wall_bump.wav */,
+				5C8E84B8BD6B83D1E97E3BE8 /* welcome@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6E122EE9241E25C98714AC39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D24691660BC68EB0A35DF /* libPods.a */,
+				B0924C126AA9E3A2A6A7949B /* libPods-EstimoteIndoorSDK.a */,
+				79C147BAF17FF04E68E2C4AB /* libPods-EstimoteSDK.a */,
+				8324972C9EF10BE4FEB01EEE /* libPods-proximibee_ios.a */,
+				440F063CD5415B3BAEFFC670 /* libPods-proximibee_ios-EstimoteIndoorSDK.a */,
+				82789B1C363083F3E63E96E0 /* libPods-proximibee_ios-EstimoteSDK.a */,
+				64E70AB343DDE7C6692AA403 /* libPods-proximibee_iosTests.a */,
+				9EBAABD110052E6DF5492E7D /* libPods-proximibee_iosTests-EstimoteIndoorSDK.a */,
+				9DC582DC9E125609DE5A239F /* libPods-proximibee_iosTests-EstimoteSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76ED1AE5A3CC23B1F554E621 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92303E224F393C9379041010 /* libEstimoteSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88F74D0A20D1D559EE549790 /* Pods-proximibee_iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E019D1C80030176000C282A /* Pods-proximibee_iosTests-acknowledgements.markdown */,
+				D252D2F700CC895ACC963441 /* Pods-proximibee_iosTests-acknowledgements.plist */,
+				8406DB341340E7F36ACEBEA3 /* Pods-proximibee_iosTests-dummy.m */,
+				8B5A1DAC5349E8DB87E424B9 /* Pods-proximibee_iosTests-environment.h */,
+				D0248BB76493DDD0E6C59013 /* Pods-proximibee_iosTests-resources.sh */,
+				ACCC9E8A28624FF551FD24A5 /* Pods-proximibee_iosTests.debug.xcconfig */,
+				ABDFE1BAE0E66DC2B60ED202 /* Pods-proximibee_iosTests.release.xcconfig */,
+			);
+			name = "Pods-proximibee_iosTests";
+			path = "Target Support Files/Pods-proximibee_iosTests";
+			sourceTree = "<group>";
+		};
+		ABE23183FB19DD57C2F19308 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0FE93EA04F110DE675011E5 /* Pods */,
+				C571A1E1849B0DF168251106 /* Pods-proximibee_ios */,
+				88F74D0A20D1D559EE549790 /* Pods-proximibee_iosTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B413F24C13B6872E75B1AF6B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6F50405316EB56F05C288479 /* AVFoundation.framework */,
+				43D9C720CF583060C3569C96 /* AudioToolbox.framework */,
+				FD992F07C0EFF0130518E134 /* CoreBluetooth.framework */,
+				5A7D07F58F1D27A4A5C20E38 /* CoreGraphics.framework */,
+				C5DEE2A3E694A7776F1A00C9 /* CoreLocation.framework */,
+				7AE6AC39B1FF3F29FB627DAC /* CoreMotion.framework */,
+				A635BCC5E7963F24C05978B8 /* Foundation.framework */,
+				E7E301D4004D979B2796C7F2 /* MediaPlayer.framework */,
+				5AAE726E3D5A71D36B48A3AD /* MessageUI.framework */,
+				936B64547D16FD3D1DC936F9 /* MobileCoreServices.framework */,
+				3BAD785ACB9BEE05B21FD9E7 /* SystemConfiguration.framework */,
+				E6C4B44F4A39AB3C0E1AC473 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BD4D29484F089AE8FFF5A183 = {
+			isa = PBXGroup;
+			children = (
+				369BA8C445F4641CC8135545 /* Podfile */,
+				C362009A364DD1CB712BF99D /* Frameworks */,
+				3C1D03FAF0FD065793096210 /* Pods */,
+				6E122EE9241E25C98714AC39 /* Products */,
+				ABE23183FB19DD57C2F19308 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		C0FE93EA04F110DE675011E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8D12CA9B879554F1845539F /* Pods-acknowledgements.markdown */,
+				8F540544E5B8E482992833B7 /* Pods-acknowledgements.plist */,
+				D3F5C46B8343BBCBBF150BB0 /* Pods-dummy.m */,
+				2D09CA26783B8A6200E29577 /* Pods-environment.h */,
+				40950D05F0CCBFDD51A586C5 /* Pods-resources.sh */,
+				D392BF79BF15655F5391BE0F /* Pods.debug.xcconfig */,
+				9B115C44B91A8C0C695A4562 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		C362009A364DD1CB712BF99D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B413F24C13B6872E75B1AF6B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C571A1E1849B0DF168251106 /* Pods-proximibee_ios */ = {
+			isa = PBXGroup;
+			children = (
+				1448C6728938647C8A37EC7D /* Pods-proximibee_ios-acknowledgements.markdown */,
+				DB1DF5D92775D3807A26ABE4 /* Pods-proximibee_ios-acknowledgements.plist */,
+				BF430148D11AF6DD1CC34E7D /* Pods-proximibee_ios-dummy.m */,
+				18538B99786309A5AC87A0A5 /* Pods-proximibee_ios-environment.h */,
+				912CC946EE18FD8DAE05CEE1 /* Pods-proximibee_ios-resources.sh */,
+				53C9C053F6A31D68FB128224 /* Pods-proximibee_ios.debug.xcconfig */,
+				FDE7B94E8C762AC997C5C4D2 /* Pods-proximibee_ios.release.xcconfig */,
+			);
+			name = "Pods-proximibee_ios";
+			path = "Target Support Files/Pods-proximibee_ios";
+			sourceTree = "<group>";
+		};
+		CF1215BF0F059B8C20826B92 /* EstimoteSDK */ = {
+			isa = PBXGroup;
+			children = (
+				16C311014CFBAE07F9AFEB2D /* ESTBeacon.h */,
+				F4B2681C8D0FC8F87E93A708 /* ESTBeaconDefinitions.h */,
+				AC9B5E6130D1A6C5B1B44E38 /* ESTBeaconFirmwareVO.h */,
+				DF3C45E1B9FC29F41176E28F /* ESTBeaconManager.h */,
+				B85A180C9CDB2FD416E1B499 /* ESTBeaconRegion.h */,
+				5C07C2A999974FE9FA0E5041 /* ESTBeaconUpdateConfig.h */,
+				6046167E5ACBF48FA3F8F168 /* ESTBeaconUpdateInfo.h */,
+				7C880C3E16579D79F42E7CE7 /* ESTBeaconVO.h */,
+				E0C4FC4D03F0CC2CA2DD2DD0 /* ESTBulkUpdater.h */,
+				4383AD4B719367AEACC4BC7D /* ESTConfig.h */,
+				F82D8281EEEEC9A3E2F8EF3C /* ESTDateRule.h */,
+				DD7E1B29A57E0CAE6E218BF0 /* ESTDefinitions.h */,
+				D373EB4C62B2866AE7D78FE2 /* ESTFirmwareInfoVO.h */,
+				2039778A6E8C6C259818F68F /* ESTMotionRule.h */,
+				87D4B355393186C0E7407C9B /* ESTNearable.h */,
+				F889C21D9083449BF43D082F /* ESTNearableDefinitions.h */,
+				6E85C574E4B042D73F5D0048 /* ESTNearableManager.h */,
+				A0928BA49140861DB17C79E3 /* ESTNearableRule.h */,
+				81421EBED8D2F496B56EE745 /* ESTOrientationRule.h */,
+				7E1AC91AD7AE30ABE8FE515F /* ESTProximityRule.h */,
+				A5AD0391AD678891E39E2FDC /* ESTRule.h */,
+				5CDB439C3685AC4AFBCB74AF /* ESTTemperatureRule.h */,
+				FDCCB86E0D14CF0ACF18A73A /* ESTTrigger.h */,
+				28C15F25EB5109B057E7AE19 /* ESTTriggerManager.h */,
+				76ED1AE5A3CC23B1F554E621 /* Frameworks */,
+				0C658C1081412F531BE82533 /* Support Files */,
+			);
+			path = EstimoteSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03B5CF68803BB1116B2D88A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11EB3531432CA085A0A5081 /* ESTIndoorLocationManager.h in Headers */,
+				9EA76F6FE1D3FEFA3B5853CD /* ESTIndoorLocationView.h in Headers */,
+				3A32F044BE19A48FA11C04DE /* ESTLocation.h in Headers */,
+				3D42BFA57204B43DD3278C4C /* ESTLocationBuilder.h in Headers */,
+				670CE924E530760D3A6F15E0 /* ESTLocationLinearObject.h in Headers */,
+				0624491B9E755E94ADF491AE /* ESTOrientedLineSegment.h in Headers */,
+				63EF79A0642846EFECE4F6EA /* ESTOrientedPoint.h in Headers */,
+				0E39A6228FD6A8896F597F02 /* ESTPoint.h in Headers */,
+				79E213E9EFC03C8D6A0280D6 /* ESTPositionedBeacon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FA7E1323ED00AC7015A9B51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FEC62FEADE5B6D86C6DE46 /* ESTBeacon.h in Headers */,
+				29CDB293BB541C62ED9472AE /* ESTBeaconDefinitions.h in Headers */,
+				D5ABD1229161C57E3DCC5477 /* ESTBeaconFirmwareVO.h in Headers */,
+				861C6EC2F0EC053808112501 /* ESTBeaconManager.h in Headers */,
+				23D110C9A6ED419CF6BCBF02 /* ESTBeaconRegion.h in Headers */,
+				993D7FA87522D8B1CBB7C19B /* ESTBeaconUpdateConfig.h in Headers */,
+				B9A630732FF0610DDEAC7219 /* ESTBeaconUpdateInfo.h in Headers */,
+				132DEE03067144598ED16EF3 /* ESTBeaconVO.h in Headers */,
+				C18DEFB061A0C70A1180981E /* ESTBulkUpdater.h in Headers */,
+				300BBECACD4B744C6FF5AF07 /* ESTConfig.h in Headers */,
+				5BD4D9E4FAE097F27E3171C6 /* ESTDateRule.h in Headers */,
+				79648B8777886DE42579C14D /* ESTDefinitions.h in Headers */,
+				420BD5F48CAA7E3117E17A62 /* ESTFirmwareInfoVO.h in Headers */,
+				F2B2EC3D286A4CBAD5DA6E9D /* ESTMotionRule.h in Headers */,
+				2D7EFFF259E1EF8A03854BB2 /* ESTNearable.h in Headers */,
+				35BE4BE3CDD92EAAAC088814 /* ESTNearableDefinitions.h in Headers */,
+				01289CFC81FBEE9C660548E2 /* ESTNearableManager.h in Headers */,
+				69CDB9BE6030F0FB8E2B1B56 /* ESTNearableRule.h in Headers */,
+				EB3AADFDB17400FDB583B460 /* ESTOrientationRule.h in Headers */,
+				F384AF4B02DF3EF716D3657D /* ESTProximityRule.h in Headers */,
+				F34692AFDB9DF548D221ACC2 /* ESTRule.h in Headers */,
+				A27530289D897D0AB1AB8DD9 /* ESTTemperatureRule.h in Headers */,
+				B941B1BF53ACFD6E47EFF3EC /* ESTTrigger.h in Headers */,
+				8F47A7AD96F4FD0200D904EE /* ESTTriggerManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C5803FFFBEDFA582FBC5CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1D6D5EB38EB536B981CD11 /* ESTBeacon.h in Headers */,
+				BB0387EB97E88BF5B9C9D290 /* ESTBeaconDefinitions.h in Headers */,
+				5E63ADC0DE7AA5199B078E9F /* ESTBeaconFirmwareVO.h in Headers */,
+				A654152E868160EC9819BA41 /* ESTBeaconManager.h in Headers */,
+				19CBA7F2B7C6FDBBF530FBF8 /* ESTBeaconRegion.h in Headers */,
+				61FE26021FA44FFFAD73F7C6 /* ESTBeaconUpdateConfig.h in Headers */,
+				BD1E037A3EB8058FF0CFDF23 /* ESTBeaconUpdateInfo.h in Headers */,
+				87C3F7FA0FFB293BC1E2B589 /* ESTBeaconVO.h in Headers */,
+				17FCA4D4663670A058B5694B /* ESTBulkUpdater.h in Headers */,
+				8959E9E3C08105D7130C1A64 /* ESTConfig.h in Headers */,
+				CA444EAE78C55EEAB938495F /* ESTDateRule.h in Headers */,
+				2086AC816EC7FB54EA212E6C /* ESTDefinitions.h in Headers */,
+				63407AF7F375D3D9D4CF78CC /* ESTFirmwareInfoVO.h in Headers */,
+				55DE72AEED86C1A75EF29DCD /* ESTMotionRule.h in Headers */,
+				7DB930DE6C597EE4021CED84 /* ESTNearable.h in Headers */,
+				523FBAEEF311760693CFEBA2 /* ESTNearableDefinitions.h in Headers */,
+				97691FE06E7D8BC75B5B6079 /* ESTNearableManager.h in Headers */,
+				24DFE7F38E4765A7EA0EB099 /* ESTNearableRule.h in Headers */,
+				61DF60A5E7A7D845504D937C /* ESTOrientationRule.h in Headers */,
+				1F1F0A11F594FCE9DC6AC869 /* ESTProximityRule.h in Headers */,
+				E46EFF37236545D02C3FC74F /* ESTRule.h in Headers */,
+				8192D236F5B7AF6835968DD8 /* ESTTemperatureRule.h in Headers */,
+				E92AF94D46FBFA279BADE557 /* ESTTrigger.h in Headers */,
+				1B3924FE39C07E6B0E27EEA1 /* ESTTriggerManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9120CC0F436475BB0D18125A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C62C06AC037FA9FAC87ECB /* ESTIndoorLocationManager.h in Headers */,
+				73B09BE7D87A74849DB6D566 /* ESTIndoorLocationView.h in Headers */,
+				2ACF82CB2C5901410F4714F2 /* ESTLocation.h in Headers */,
+				00B3C5CD4D18A06239531B0F /* ESTLocationBuilder.h in Headers */,
+				7959DE4E1BC7F54CA858D6D9 /* ESTLocationLinearObject.h in Headers */,
+				EFBC925102AA789A662CEB76 /* ESTOrientedLineSegment.h in Headers */,
+				052B92277D1694B50D10C35F /* ESTOrientedPoint.h in Headers */,
+				B5020730BD969093CF56F852 /* ESTPoint.h in Headers */,
+				A63618CCA0B5CCFC7E9385B7 /* ESTPositionedBeacon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6DEF2E8F5A854411268E586 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7435DAA799597451AF665929 /* ESTBeacon.h in Headers */,
+				744ADF0C9A547FF5BD59C91A /* ESTBeaconDefinitions.h in Headers */,
+				C94EF8605B2CDA733CFFEB13 /* ESTBeaconFirmwareVO.h in Headers */,
+				409C4CEE19DE70B3C37A9E88 /* ESTBeaconManager.h in Headers */,
+				4260DF5B5964ACF2FFF30831 /* ESTBeaconRegion.h in Headers */,
+				C1787D58C6A3D348DF5418CD /* ESTBeaconUpdateConfig.h in Headers */,
+				12692D2CAC627D3FE14ED39F /* ESTBeaconUpdateInfo.h in Headers */,
+				95D896A3174C405B9B369AA5 /* ESTBeaconVO.h in Headers */,
+				594F15542888F5100052B2CD /* ESTBulkUpdater.h in Headers */,
+				C56ED1B8DA9306EE90577D1E /* ESTConfig.h in Headers */,
+				0980EA4A57C9C5673F3C6898 /* ESTDateRule.h in Headers */,
+				F412F9FADBC107CD27ADD2A5 /* ESTDefinitions.h in Headers */,
+				F597E399D9CCC7883FFDF788 /* ESTFirmwareInfoVO.h in Headers */,
+				9D108A4662759A0517FFBC8C /* ESTMotionRule.h in Headers */,
+				C5F9535BBE6A65A252126994 /* ESTNearable.h in Headers */,
+				F38369A6EF224EFE9A563360 /* ESTNearableDefinitions.h in Headers */,
+				9834EAD6FDDFB720DAB82C87 /* ESTNearableManager.h in Headers */,
+				B25CF31DA89A4801344D83EB /* ESTNearableRule.h in Headers */,
+				36EABB3C3F3E439A5CCA87FF /* ESTOrientationRule.h in Headers */,
+				591386D97335BCEDB3C32987 /* ESTProximityRule.h in Headers */,
+				86B30A1DEFDD51156D77DCAE /* ESTRule.h in Headers */,
+				612509D787DF02BD7A47F4ED /* ESTTemperatureRule.h in Headers */,
+				781CC587FB7D3DBF71A2D443 /* ESTTrigger.h in Headers */,
+				3D7C082D358E4DBB255956E6 /* ESTTriggerManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1D0E2298A43B2090E4367F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C53E5AA3C108364F3CC590 /* ESTIndoorLocationManager.h in Headers */,
+				993FB64E435A21079001335E /* ESTIndoorLocationView.h in Headers */,
+				2C871415E58B00E74497A569 /* ESTLocation.h in Headers */,
+				26AD19D26B531F054C19AB52 /* ESTLocationBuilder.h in Headers */,
+				136C263181BB2C3C0828B1AC /* ESTLocationLinearObject.h in Headers */,
+				1DD9F2E86B582FC70B3264C9 /* ESTOrientedLineSegment.h in Headers */,
+				8FED473320D2D6AF455DCD7B /* ESTOrientedPoint.h in Headers */,
+				469FB580810FCD7948ED3A64 /* ESTPoint.h in Headers */,
+				D7ACE98EAE557F1BD233F3B0 /* ESTPositionedBeacon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04928382C191E4205B0AE94E /* Pods-EstimoteIndoorSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCE8E2D217E2CEBE311EA580 /* Build configuration list for PBXNativeTarget "Pods-EstimoteIndoorSDK" */;
+			buildPhases = (
+				324055ACA4FEA19F254ADA0C /* Sources */,
+				66BEDAB5C1E4BEF89613ED3D /* Frameworks */,
+				03B5CF68803BB1116B2D88A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F728E5A93226850526BF1B /* PBXTargetDependency */,
+			);
+			name = "Pods-EstimoteIndoorSDK";
+			productName = "Pods-EstimoteIndoorSDK";
+			productReference = B0924C126AA9E3A2A6A7949B /* libPods-EstimoteIndoorSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2982BF646FC0B3095899A65C /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4968AE980506E4C6C0A0E19A /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				B2E76C637C881F60860E4BA2 /* Sources */,
+				49BE9898EEBEE1EE93727D73 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0EB7C61678FD5A64C630A8F /* PBXTargetDependency */,
+				A735793C94B4C70A08F5285C /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = CA0D24691660BC68EB0A35DF /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		29EDF92E6A8BE36DDA077ED8 /* Pods-proximibee_ios-EstimoteSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1A29A60F7E770945D663B77 /* Build configuration list for PBXNativeTarget "Pods-proximibee_ios-EstimoteSDK" */;
+			buildPhases = (
+				51299A2A6DBFFBC2DE8AABE2 /* Sources */,
+				1151D9F96757078F23F9BDE6 /* Frameworks */,
+				0FA7E1323ED00AC7015A9B51 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-proximibee_ios-EstimoteSDK";
+			productName = "Pods-proximibee_ios-EstimoteSDK";
+			productReference = 82789B1C363083F3E63E96E0 /* libPods-proximibee_ios-EstimoteSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		32500FABBC296A329DDCDA4E /* Pods-proximibee_iosTests-EstimoteIndoorSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E8B8DAD4FFA7DBB274BED6 /* Build configuration list for PBXNativeTarget "Pods-proximibee_iosTests-EstimoteIndoorSDK" */;
+			buildPhases = (
+				1ED3E5F7E1D69FC868F2915E /* Sources */,
+				853512936C7B44D5B24829D1 /* Frameworks */,
+				9120CC0F436475BB0D18125A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16752D178360D135F0AF7B06 /* PBXTargetDependency */,
+			);
+			name = "Pods-proximibee_iosTests-EstimoteIndoorSDK";
+			productName = "Pods-proximibee_iosTests-EstimoteIndoorSDK";
+			productReference = 9EBAABD110052E6DF5492E7D /* libPods-proximibee_iosTests-EstimoteIndoorSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3C300CEE8208750566A4B3D5 /* Pods-proximibee_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20D53BF0F3A4526B6BAC226 /* Build configuration list for PBXNativeTarget "Pods-proximibee_ios" */;
+			buildPhases = (
+				CC7005A1AFF78A52A8D1DD20 /* Sources */,
+				15E4F1182FDD2338E1A56070 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A2DA417823FE0F0577A6AA /* PBXTargetDependency */,
+				8E519A77A2BF12A1EFC77F74 /* PBXTargetDependency */,
+			);
+			name = "Pods-proximibee_ios";
+			productName = "Pods-proximibee_ios";
+			productReference = 8324972C9EF10BE4FEB01EEE /* libPods-proximibee_ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5989D44D82AC8598FF8BB2AB /* Pods-proximibee_ios-EstimoteIndoorSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B66DA039FF217CBB31D268 /* Build configuration list for PBXNativeTarget "Pods-proximibee_ios-EstimoteIndoorSDK" */;
+			buildPhases = (
+				760C1FA67A600654B250AE5C /* Sources */,
+				57BE0A36E6A332483F146ACB /* Frameworks */,
+				FF1D0E2298A43B2090E4367F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FE2AEA46DAF67B7721FD0F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-proximibee_ios-EstimoteIndoorSDK";
+			productName = "Pods-proximibee_ios-EstimoteIndoorSDK";
+			productReference = 440F063CD5415B3BAEFFC670 /* libPods-proximibee_ios-EstimoteIndoorSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C3128782A0E414889D0516DB /* Pods-EstimoteSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA48632D71FAFBF3000E3783 /* Build configuration list for PBXNativeTarget "Pods-EstimoteSDK" */;
+			buildPhases = (
+				05A0E157929602C189D4C95B /* Sources */,
+				00608BC99F19CF443FA768C9 /* Frameworks */,
+				A6DEF2E8F5A854411268E586 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EstimoteSDK";
+			productName = "Pods-EstimoteSDK";
+			productReference = 79C147BAF17FF04E68E2C4AB /* libPods-EstimoteSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E1D8732A298BD25FEA554C43 /* Pods-proximibee_iosTests-EstimoteSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B1F4EC3BDD9386540BB968C /* Build configuration list for PBXNativeTarget "Pods-proximibee_iosTests-EstimoteSDK" */;
+			buildPhases = (
+				1F741D8BFAD613D2437DCC13 /* Sources */,
+				9492CDE7C67B36FD1958FB78 /* Frameworks */,
+				87C5803FFFBEDFA582FBC5CE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-proximibee_iosTests-EstimoteSDK";
+			productName = "Pods-proximibee_iosTests-EstimoteSDK";
+			productReference = 9DC582DC9E125609DE5A239F /* libPods-proximibee_iosTests-EstimoteSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E842759CA1393E50F7F5AA07 /* Pods-proximibee_iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BAB5F0DB1A668B7A8218FC0 /* Build configuration list for PBXNativeTarget "Pods-proximibee_iosTests" */;
+			buildPhases = (
+				BE2F549A08CCFB1016353ADC /* Sources */,
+				25BC5D2323F1C724BB0A6D5C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED16FC4AA60F0EA217DD4B5A /* PBXTargetDependency */,
+				24071390EC09A7F65D8F6D73 /* PBXTargetDependency */,
+			);
+			name = "Pods-proximibee_iosTests";
+			productName = "Pods-proximibee_iosTests";
+			productReference = 64E70AB343DDE7C6692AA403 /* libPods-proximibee_iosTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C99F7D0017A48B6763084290 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = D0BEFCCAB6322957F1EC67F3 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD4D29484F089AE8FFF5A183;
+			productRefGroup = 6E122EE9241E25C98714AC39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2982BF646FC0B3095899A65C /* Pods */,
+				04928382C191E4205B0AE94E /* Pods-EstimoteIndoorSDK */,
+				C3128782A0E414889D0516DB /* Pods-EstimoteSDK */,
+				3C300CEE8208750566A4B3D5 /* Pods-proximibee_ios */,
+				5989D44D82AC8598FF8BB2AB /* Pods-proximibee_ios-EstimoteIndoorSDK */,
+				29EDF92E6A8BE36DDA077ED8 /* Pods-proximibee_ios-EstimoteSDK */,
+				E842759CA1393E50F7F5AA07 /* Pods-proximibee_iosTests */,
+				32500FABBC296A329DDCDA4E /* Pods-proximibee_iosTests-EstimoteIndoorSDK */,
+				E1D8732A298BD25FEA554C43 /* Pods-proximibee_iosTests-EstimoteSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05A0E157929602C189D4C95B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F43C30236FA8B5F32C885D /* Pods-EstimoteSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ED3E5F7E1D69FC868F2915E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DF6F34E64320528EF623D7 /* Pods-proximibee_iosTests-EstimoteIndoorSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F741D8BFAD613D2437DCC13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409A973B930FD3DB08927D38 /* Pods-proximibee_iosTests-EstimoteSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324055ACA4FEA19F254ADA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A0826E98D94FB72C7A22F80 /* Pods-EstimoteIndoorSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51299A2A6DBFFBC2DE8AABE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D875C3A33A810611D2D0456 /* Pods-proximibee_ios-EstimoteSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		760C1FA67A600654B250AE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C006C2C21CD299BB83D8255 /* Pods-proximibee_ios-EstimoteIndoorSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2E76C637C881F60860E4BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A46E98F79A1110FAA6314CA /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2F549A08CCFB1016353ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2857C8B98948BDBD9BAA2F35 /* Pods-proximibee_iosTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7005A1AFF78A52A8D1DD20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED376F6C6C608C1A9E10541D /* Pods-proximibee_ios-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16752D178360D135F0AF7B06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-proximibee_iosTests-EstimoteSDK";
+			target = E1D8732A298BD25FEA554C43 /* Pods-proximibee_iosTests-EstimoteSDK */;
+			targetProxy = 98B6EF51711917190D0A4F97 /* PBXContainerItemProxy */;
+		};
+		24071390EC09A7F65D8F6D73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-proximibee_iosTests-EstimoteSDK";
+			target = E1D8732A298BD25FEA554C43 /* Pods-proximibee_iosTests-EstimoteSDK */;
+			targetProxy = F59AF7FA0EF948A64BC0D27C /* PBXContainerItemProxy */;
+		};
+		32A2DA417823FE0F0577A6AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-proximibee_ios-EstimoteIndoorSDK";
+			target = 5989D44D82AC8598FF8BB2AB /* Pods-proximibee_ios-EstimoteIndoorSDK */;
+			targetProxy = B9BD1A62F4ED4BCA6297A75A /* PBXContainerItemProxy */;
+		};
+		46F728E5A93226850526BF1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EstimoteSDK";
+			target = C3128782A0E414889D0516DB /* Pods-EstimoteSDK */;
+			targetProxy = F06BA62D5072337D7E8EEE83 /* PBXContainerItemProxy */;
+		};
+		8E519A77A2BF12A1EFC77F74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-proximibee_ios-EstimoteSDK";
+			target = 29EDF92E6A8BE36DDA077ED8 /* Pods-proximibee_ios-EstimoteSDK */;
+			targetProxy = 0C8CA8CAFC1F86FEFAC078C3 /* PBXContainerItemProxy */;
+		};
+		8FE2AEA46DAF67B7721FD0F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-proximibee_ios-EstimoteSDK";
+			target = 29EDF92E6A8BE36DDA077ED8 /* Pods-proximibee_ios-EstimoteSDK */;
+			targetProxy = 5B72BEDAA071F536D8D44D7E /* PBXContainerItemProxy */;
+		};
+		A0EB7C61678FD5A64C630A8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EstimoteIndoorSDK";
+			target = 04928382C191E4205B0AE94E /* Pods-EstimoteIndoorSDK */;
+			targetProxy = 27A6A6AF576DD4BFEABD9A3D /* PBXContainerItemProxy */;
+		};
+		A735793C94B4C70A08F5285C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EstimoteSDK";
+			target = C3128782A0E414889D0516DB /* Pods-EstimoteSDK */;
+			targetProxy = 2B0FF5FDDB222B060BECAF87 /* PBXContainerItemProxy */;
+		};
+		ED16FC4AA60F0EA217DD4B5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-proximibee_iosTests-EstimoteIndoorSDK";
+			target = 32500FABBC296A329DDCDA4E /* Pods-proximibee_iosTests-EstimoteIndoorSDK */;
+			targetProxy = 0ED96D12BF79AA67DFA79E52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		028363D62F12890AC4BA15E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B115C44B91A8C0C695A4562 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0C4DDB9868316637CF46CEC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0396073BE1717A3CE7A9E192 /* Pods-proximibee_iosTests-EstimoteSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-proximibee_iosTests-EstimoteSDK/Pods-proximibee_iosTests-EstimoteSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		19FBFBF3867CA8EF2E19686D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E800CD98710185CFC13B61FA /* Pods-proximibee_iosTests-EstimoteIndoorSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-proximibee_iosTests-EstimoteIndoorSDK/Pods-proximibee_iosTests-EstimoteIndoorSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		269CC2DCA823A492FE443ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8BAB36FBEABA033FF49C235 /* Pods-EstimoteIndoorSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EstimoteIndoorSDK/Pods-EstimoteIndoorSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		30F66AFF67556BD8D0236C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC29F2E07000C54AADC7133 /* Pods-EstimoteSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EstimoteSDK/Pods-EstimoteSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3B617F685DAF5ABBF2807F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8BAB36FBEABA033FF49C235 /* Pods-EstimoteIndoorSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EstimoteIndoorSDK/Pods-EstimoteIndoorSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3C92F6230EEAF4B6D1D057C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C9C053F6A31D68FB128224 /* Pods-proximibee_ios.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6066D5496FB4E599A1F2E10E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384E98465DF0870E3C7B2D7B /* Pods-proximibee_ios-EstimoteIndoorSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-proximibee_ios-EstimoteIndoorSDK/Pods-proximibee_ios-EstimoteIndoorSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		67C9BB3B3B8F0456CA519C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E800CD98710185CFC13B61FA /* Pods-proximibee_iosTests-EstimoteIndoorSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-proximibee_iosTests-EstimoteIndoorSDK/Pods-proximibee_iosTests-EstimoteIndoorSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7115731C60A90DE972772AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0396073BE1717A3CE7A9E192 /* Pods-proximibee_iosTests-EstimoteSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-proximibee_iosTests-EstimoteSDK/Pods-proximibee_iosTests-EstimoteSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7A7D571DFD1A65582CEFB649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CC6DA92A7F0A4B752B4DF6 /* Pods-proximibee_ios-EstimoteSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-proximibee_ios-EstimoteSDK/Pods-proximibee_ios-EstimoteSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		84C242484EE2F371CEDA1B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384E98465DF0870E3C7B2D7B /* Pods-proximibee_ios-EstimoteIndoorSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-proximibee_ios-EstimoteIndoorSDK/Pods-proximibee_ios-EstimoteIndoorSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		96C44172A389751D7F142142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CC6DA92A7F0A4B752B4DF6 /* Pods-proximibee_ios-EstimoteSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-proximibee_ios-EstimoteSDK/Pods-proximibee_ios-EstimoteSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		96D02B7442D1B89595D9726B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D392BF79BF15655F5391BE0F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9F58A5653BAEE1FA63382FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABDFE1BAE0E66DC2B60ED202 /* Pods-proximibee_iosTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AEF5FB9EA4DADBF019AF3A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC29F2E07000C54AADC7133 /* Pods-EstimoteSDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-EstimoteSDK/Pods-EstimoteSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CAB69EB66C54626A4843B57B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DCFBD614E6F66922EF226C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACCC9E8A28624FF551FD24A5 /* Pods-proximibee_iosTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ECE91FCB5F59FA8528FC6CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDE7B94E8C762AC997C5C4D2 /* Pods-proximibee_ios.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F90BB469EC02774FEE60D016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B66DA039FF217CBB31D268 /* Build configuration list for PBXNativeTarget "Pods-proximibee_ios-EstimoteIndoorSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6066D5496FB4E599A1F2E10E /* Debug */,
+				84C242484EE2F371CEDA1B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4968AE980506E4C6C0A0E19A /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96D02B7442D1B89595D9726B /* Debug */,
+				028363D62F12890AC4BA15E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B1F4EC3BDD9386540BB968C /* Build configuration list for PBXNativeTarget "Pods-proximibee_iosTests-EstimoteSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7115731C60A90DE972772AA1 /* Debug */,
+				0C4DDB9868316637CF46CEC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BAB5F0DB1A668B7A8218FC0 /* Build configuration list for PBXNativeTarget "Pods-proximibee_iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFBD614E6F66922EF226C11 /* Debug */,
+				9F58A5653BAEE1FA63382FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA48632D71FAFBF3000E3783 /* Build configuration list for PBXNativeTarget "Pods-EstimoteSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F66AFF67556BD8D0236C26 /* Debug */,
+				AEF5FB9EA4DADBF019AF3A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C20D53BF0F3A4526B6BAC226 /* Build configuration list for PBXNativeTarget "Pods-proximibee_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C92F6230EEAF4B6D1D057C8 /* Debug */,
+				ECE91FCB5F59FA8528FC6CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCE8E2D217E2CEBE311EA580 /* Build configuration list for PBXNativeTarget "Pods-EstimoteIndoorSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269CC2DCA823A492FE443ECC /* Debug */,
+				3B617F685DAF5ABBF2807F60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0BEFCCAB6322957F1EC67F3 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB69EB66C54626A4843B57B /* Debug */,
+				F90BB469EC02774FEE60D016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1A29A60F7E770945D663B77 /* Build configuration list for PBXNativeTarget "Pods-proximibee_ios-EstimoteSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C44172A389751D7F142142 /* Debug */,
+				7A7D571DFD1A65582CEFB649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E8B8DAD4FFA7DBB274BED6 /* Build configuration list for PBXNativeTarget "Pods-proximibee_iosTests-EstimoteIndoorSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19FBFBF3867CA8EF2E19686D /* Debug */,
+				67C9BB3B3B8F0456CA519C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C99F7D0017A48B6763084290 /* Project object */;
+}
